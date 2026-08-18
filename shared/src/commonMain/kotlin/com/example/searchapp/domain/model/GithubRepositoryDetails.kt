@@ -1,0 +1,28 @@
+package com.example.searchapp.domain.model
+
+data class GithubRepositoryDetails(
+    val id: Long,
+    val name: String,
+    val fullName: String,
+    val description: String?,
+    val url: String,
+    val isPrivate: Boolean,
+    val isFork: Boolean,
+    val isArchived: Boolean,
+    val isDisabled: Boolean,
+    val homepage: String?,
+    val sizeInKilobytes: Int,
+    val stars: Int,
+    val watchers: Int,
+    val forks: Int,
+    val openIssues: Int,
+    val networkCount: Int,
+    val subscribers: Int,
+    val language: String?,
+    val defaultBranch: String,
+    val createdAt: String,
+    val updatedAt: String,
+    val pushedAt: String?,
+    val ownerLogin: String,
+    val ownerAvatarUrl: String,
+)
